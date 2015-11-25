@@ -21,7 +21,7 @@ using namespace std;
 int main()
 {
 	int x;
-	cout << "please enter the number that you wan the fibonacci numeber sequence to end at" << endl;	
+	cout << "please enter the number that you want the fibonacci numeber sequence to end at" << endl;	
 	cin >>x;	
 	int array[3];
 	if(x < 0)
