@@ -29,7 +29,7 @@ int main()
 		array[0] = 0;
 		array[1] = -1;
 		array[2] = -1;	
-		while(array[2] >= x || array[2] >= x)
+		while(array[2] > x || array[2] >= x)
 		{
 			cout << array[2] << endl;			
 			array[0] = array[1];
@@ -42,7 +42,7 @@ int main()
 		array[0] = 0;
 		array[1] = 1;
 		array[2] = 1;	
-		while(array[2] <= x || array[2] <= x)
+		while(array[2] < x || array[2] <= x)
 		{
 			cout << array[2] << endl;			
 			array[0] = array[1];
